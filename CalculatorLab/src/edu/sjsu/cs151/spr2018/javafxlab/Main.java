@@ -50,7 +50,7 @@ public class Main extends Application implements EventHandler<ActionEvent> {
 					}
 					
 					// TODO(you): make "this" the actionListener/eventHandler for button b.
-					
+					b.setOnAction(this);
 					keypad.getChildren().add(b);
 					
 				}
